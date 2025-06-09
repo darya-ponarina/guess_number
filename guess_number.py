@@ -1,6 +1,6 @@
 from random import randint
 number=randint(1,100)
-print('Угадайте число от 1 до 100')
+print('Угадайте число от 2 до 100')
 while True:
     x=int(input('Введите число: '))
     if x<number:
